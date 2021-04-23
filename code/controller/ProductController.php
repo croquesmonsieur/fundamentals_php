@@ -3,7 +3,7 @@
 
 class ProductController
 {
-private PDO $pdo;
+    private PDO $pdo;
 
     public function __construct()
     {
@@ -11,7 +11,8 @@ private PDO $pdo;
         $this->pdo = $connection->connect();
     }
 
-    public function renderView(){
+    public function renderView()
+    {
         $load_products = new ProductLoader();
         $products = $load_products->getAllProducts($this->pdo);
 

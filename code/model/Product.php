@@ -79,6 +79,8 @@ private float $tax;
         $this->tax = $tax;
     }
 
-
+    public function makePriceTaxIncluded($price, $tax): float {
+        return round($price * (1 + $tax), 2);
+    }
 
 }
