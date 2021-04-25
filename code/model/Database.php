@@ -4,8 +4,8 @@
 class Database
 {
     private string $host = "localhost";
-    private string $user = "USER";
-    private string $pwd = "PASSWORD";
+    private string $user = USER;
+    private string $pwd = PASSWORD;
     private string $db = "fundamentals";
     private array $driverOpt = [
         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'",

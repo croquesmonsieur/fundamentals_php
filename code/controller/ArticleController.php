@@ -11,6 +11,10 @@ class ArticleController
         $this->pdo = $connection->connect();
     }
 
+    public function renderViewHome(){
+        require 'view/Home.php';
+    }
+
     public function renderView()
     {
         $load_articles = new ArticleLoader();

@@ -20,7 +20,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="../../view/Home.php?page=Home">Home</a>
+                <a class="nav-link active" aria-current="page" href="../../index.php?page=Home">Home</a>
                 <a class="nav-link" href="../../index.php?page=articles">Articles</a>
                 <a class="nav-link" href="../../index.php?page=products">Products</a>
             </div>

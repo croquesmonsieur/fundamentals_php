@@ -15,6 +15,10 @@ require 'model/Database.php';
 require 'model/Product.php';
 
 if (!empty($_GET['page'])) {
+    if ($_GET['page'] == 'Home') {
+        $article_page = new ArticleController();
+        $article_page->renderView();
+    }
     if ($_GET['page'] == 'articles') {
         $article_page = new ArticleController();
         $article_page->renderView();
